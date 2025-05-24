@@ -1,0 +1,7 @@
+Package.json: contains packages for an app 
+   - "~" vs "^" difference: 
+     ~version: only accpets new patch versions
+        example: the 1.2.0 will update all future  as 1.2.1 , 1.2.3 , 1.2.x
+     ^version:  accept new minor and patch versions
+
+packagelock.json: keeps track of exact version of packages installed
